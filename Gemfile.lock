@@ -1,13 +1,14 @@
 GIT
-  remote: git://github.com/datamapper/dm-core
+  remote: https://github.com/datamapper/dm-core
   revision: 9224447f73ff861a0870135564d1aa5df37b6eaa
+  ref: 9224447
   branch: release-1.2
   specs:
     dm-core (1.2.1)
       addressable (~> 2.3.3)
 
 GIT
-  remote: git://github.com/p/dm-sweatshop-without-parsetree
+  remote: https://github.com/p/dm-sweatshop-without-parsetree
   revision: 623ed21c1e75072401a85530c09cc2c8ff029ac2
   branch: integrity
   specs:

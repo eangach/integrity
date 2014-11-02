@@ -7,7 +7,8 @@ gem 'do_sqlite3'
 # Workaround until https://github.com/datamapper/dm-core/issues/242
 # is fixed in a released version of datamapper.
 gem 'dm-core',
-  :git => 'git://github.com/datamapper/dm-core',
+  :git => 'https://github.com/datamapper/dm-core',
+  :ref => '9224447',
   :branch => 'release-1.2'
 
 gem 'haml'
@@ -77,7 +78,7 @@ group :test do
   gem 'mocha'
   gem 'redgreen'
   gem 'dm-sweatshop',
-    :git => 'git://github.com/p/dm-sweatshop-without-parsetree',
+    :git => 'https://github.com/p/dm-sweatshop-without-parsetree',
     :branch => 'integrity'
   gem 'randexp'
   gem 'pony'
